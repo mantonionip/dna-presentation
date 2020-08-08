@@ -305,9 +305,9 @@ a.skip-link {
   left: -1000px;
   top: 0;
   z-index: 999;
-  background-color: #3C71FF;
+  background-color: #3369ff;
   padding: 10px;
-  color: #FFF;
+  color: #fff;
 }
 
 a.skip-link:focus {
@@ -330,7 +330,7 @@ html {
 
 body {
   position: relative;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 img {
@@ -370,9 +370,9 @@ textarea {
 .btn {
   font-family: "Monserrat", sans-serif;
   font-size: .8rem;
-  background-color: #3C71FF;
-  color: #FFF;
-  border: 0.1rem solid #3C71FF;
+  background-color: #3369ff;
+  color: #fff;
+  border: 0.1rem solid #3369ff;
   border-radius: 50px;
   min-width: 10rem;
   padding: .5rem 1rem;
@@ -384,8 +384,8 @@ textarea {
 }
 
 .btn:hover {
-  background-color: #FFF;
-  color: #3C71FF;
+  background-color: #fff;
+  color: #3369ff;
   cursor: pointer;
 }
 
@@ -409,7 +409,7 @@ textarea {
 }
 
 .btn-intro:hover {
-  background-color: #FDCE23;
+  background-color: #fdce23;
 }
 
 .btn-start {
@@ -432,9 +432,9 @@ textarea {
 }
 
 #loader {
-  border: 0.8rem solid #FFF;
+  border: 0.8rem solid #fff;
   border-radius: 50%;
-  border-top: 0.8rem solid #3C71FF;
+  border-top: 0.8rem solid #3369ff;
   width: 6rem;
   height: 6rem;
   -webkit-animation: spin 2s linear infinite;
@@ -464,7 +464,7 @@ textarea {
 }
 
 .header {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .navigation {
@@ -492,12 +492,12 @@ textarea {
 .logo-image {
   display: block;
   width: 100px;
-  border-right: 2px solid #F0742C;
+  border-right: 2px solid #f0742c;
   padding-right: 1rem;
 }
 
 .logo-text {
-  color: #F0742C;
+  color: #f0742c;
   font-size: 1rem;
   font-weight: bold;
   padding-left: 1rem;
@@ -513,9 +513,9 @@ textarea {
 }
 
 .fa-home {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   color: #333;
-  border: 1px solid #F6F6F6;
+  border: 1px solid #f6f6f6;
   border-radius: 50px;
   padding: .7rem;
   -webkit-transition: .4s all;
@@ -523,8 +523,8 @@ textarea {
 }
 
 .fa-home:hover {
-  background-color: #F9584F;
-  color: #FFF !important;
+  background-color: #f9584f;
+  color: #fff !important;
 }
 
 .intro-container {
@@ -547,9 +547,9 @@ textarea {
 }
 
 .intro-info {
-  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #FDCE23), color-stop(10%, #F9584F));
-  background: linear-gradient(90deg, #FDCE23 30%, #F9584F 10%);
-  border: 1px solid #FFF;
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #fdce23), color-stop(10%, #f9584f));
+  background: linear-gradient(90deg, #fdce23 30%, #f9584f 10%);
+  border: 1px solid #fff;
   border-radius: 3rem;
   padding: 5rem 3rem;
 }
@@ -592,8 +592,8 @@ textarea {
 }
 
 .level-badge {
-  background-color: #FDCE23;
-  border: 1px solid #FDCE23;
+  background-color: #fdce23;
+  border: 1px solid #fdce23;
   border-radius: 0 0 50px 50px;
   padding: .5rem;
 }
@@ -610,8 +610,8 @@ textarea {
 }
 
 .aside-container {
-  background-color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 10px;
   padding: 2rem 2rem 0;
   margin: 5rem 2rem 0 0;
@@ -669,9 +669,9 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1.2rem;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   color: #333;
-  border: 1px solid #F6F6F6;
+  border: 1px solid #f6f6f6;
   border-radius: 50px;
   padding: .7rem;
   -webkit-transition: .4s all;
@@ -680,16 +680,16 @@ textarea {
 
 .fa-cubes:hover,
 .fa-youtube:hover {
-  color: #FFF;
-  background-color: #F9584F;
+  color: #fff;
+  background-color: #f9584f;
 }
 
 .learner-initial {
-  border: 1px solid #F6F6F6;
+  border: 1px solid #f6f6f6;
   border-radius: 50px;
-  background-color: #F9584F !important;
-  color: #FFF !important;
-  border: 1px solid #FFF !important;
+  background-color: #f9584f !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
   padding: .7rem;
 }
 
@@ -709,7 +709,7 @@ textarea {
   width: 30px;
   height: 30px;
   border-radius: 50px;
-  background: #FDCE23;
+  background: #fdce23;
   position: relative;
   top: 4px;
   padding: 0;
@@ -727,7 +727,7 @@ textarea {
   display: inline-block;
   width: 40px;
   height: 2px;
-  background: #3C71FF;
+  background: #3369ff;
   position: relative;
   top: -4px;
   padding: 0;
@@ -751,8 +751,8 @@ textarea {
 .lesson-item {
   font-size: .9rem;
   line-height: 1.6rem;
-  background-color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 10px;
   padding: 2rem;
   min-height: 150px;
@@ -773,11 +773,11 @@ textarea {
 }
 
 .span-blue {
-  color: #3C71FF;
+  color: #3369ff;
 }
 
 .span-red {
-  color: #F9584F;
+  color: #f9584f;
 }
 
 .btn-container {
@@ -806,7 +806,7 @@ textarea {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: #FDCE23;
+  background: #fdce23;
   position: relative;
   top: 5px;
   padding: 0;
@@ -821,7 +821,7 @@ textarea {
 }
 
 .assessment-go {
-  background-color: #FFF;
+  background-color: #fff;
   border: 1px solid #333;
   border-radius: 10px;
   padding: 3rem;
@@ -853,7 +853,7 @@ textarea {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background: #FDCE23;
+  background: #fdce23;
   position: relative;
   top: 5px;
   padding: 0;
@@ -877,8 +877,8 @@ textarea {
 }
 
 .video-container {
-  background-color: #FFF;
-  border: 1px solid #FFF;
+  background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 10px;
   padding: 1.5rem;
 }
@@ -954,15 +954,15 @@ iframe {
   margin-bottom: 0.25rem;
   width: 100%;
   font-size: .9rem;
-  border: 2px solid #3C71FF;
+  border: 2px solid #3369ff;
   border-radius: 10px;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .choice-container:hover {
   cursor: pointer;
-  -webkit-box-shadow: 0 0.1rem 0.3rem 0 #3C71FF;
-          box-shadow: 0 0.1rem 0.3rem 0 #3C71FF;
+  -webkit-box-shadow: 0 0.1rem 0.3rem 0 #3369ff;
+          box-shadow: 0 0.1rem 0.3rem 0 #3369ff;
   -webkit-transform: translateY(-0.1rem);
           transform: translateY(-0.1rem);
   -webkit-transition: -webkit-transform 150ms;
@@ -975,8 +975,8 @@ iframe {
   border-radius: 5px 0 0 5px;
   margin: 0;
   padding: .7rem 1.2rem;
-  background-color: #3C71FF;
-  color: #FFF;
+  background-color: #3369ff;
+  color: #fff;
 }
 
 .choice-text {
@@ -990,7 +990,7 @@ iframe {
 }
 
 .incorrect {
-  background-color: #F9584F;
+  background-color: #f9584f;
 }
 
 /* HEAD'S UP DISPLAY */
@@ -1009,20 +1009,20 @@ iframe {
 }
 
 .hud-main-text {
-  color: #F9584F;
+  color: #f9584f;
   text-align: center;
 }
 
 #progressBar {
   width: 10rem;
   height: .8rem;
-  border: 1px solid #FDCE23;
+  border: 1px solid #fdce23;
   border-radius: 50px;
   margin-top: 1rem;
 }
 
 #progressBarFull {
-  background-color: #FDCE23;
+  background-color: #fdce23;
   border-radius: 50px;
   height: .7rem;
   width: 0%;
@@ -1047,7 +1047,7 @@ iframe {
 }
 
 .circle-shape {
-  background-color: #FDCE23;
+  background-color: #fdce23;
   border-radius: 50%;
   position: absolute;
 }
@@ -1068,7 +1068,7 @@ iframe {
 
 .triangle-small {
   border: 100px solid transparent;
-  border-top-color: #F9584F;
+  border-top-color: #f9584f;
   border-bottom: 0;
   border-left: 0;
   width: 0;
@@ -1084,7 +1084,7 @@ iframe {
 
 .triangle-large {
   border: 150px solid transparent;
-  border-top-color: #F9584F;
+  border-top-color: #f9584f;
   border-bottom: 0;
   border-left: 0;
   width: 0;
