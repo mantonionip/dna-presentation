@@ -1,0 +1,42 @@
+[
+	{
+		"question": "The process of transferring a gene’s instructions for making a protein is",
+		"choice1": "translation",
+		"choice2": "replication",
+		"choice3": "transcription",
+		"choice4": "protein synthesis",
+		"answer": 4
+	},
+	{
+		"question": "Which Type of RNA Functions as a blueprint for DNA?",
+		"choice1": "rRNA",
+		"choice2": "tRNA",
+		"choice3": "mRNA",
+		"choice4": "DNA Polymerase",
+		"answer": 3
+	},
+	{
+		"question": "Which of the following is a characteristic of RNA but not DNA?",
+		"choice1": "single stranded",
+		"choice2": "double stranded",
+		"choice3": "thymine",
+		"choice4": "double helix",
+		"answer": 1
+	},
+	{
+		"question": "How many types of RNA are there?",
+		"choice1": "1",
+		"choice2": "20",
+		"choice3": "4",
+		"choice4": "3",
+		"answer": 4
+	},
+	{
+		"question": "The Best description of DNA's structure is",
+		"choice1": "Chargraff's rule",
+		"choice2": "Double Helix",
+		"choice3": "Single stranded",
+		"choice4": "Two of these",
+		"answer": 2
+	}
+]

@@ -1,0 +1,52 @@
+.intro-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+}
+
+.intro-info {
+	background: linear-gradient(90deg, $accent-color-yellow 30%, $accent-color-red 10%);
+	border: 1px solid $color-white;
+	border-radius: 3rem;
+	padding: 5rem 3rem;
+}
+
+.intro-heading {
+	font-family: $font-primary;
+	font-size: calc(1rem + 3vw);
+	margin-bottom: 4rem;
+}
+
+.intro-span {
+	font-family: $font-tertiary;
+	display: block;
+	font-size: 1.4rem;
+}
+
+.intro-link {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.level {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.level-badge {
+	background-color: $accent-color-yellow;
+	border: 1px solid $accent-color-yellow;
+	border-radius: 0 0 50px 50px;
+	padding: .5rem;
+}
+
+.level-title {
+	font-size: .6rem;
+	font-weight: bold;
+}

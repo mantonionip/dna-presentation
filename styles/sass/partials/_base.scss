@@ -1,0 +1,67 @@
+// Skip Link Style
+a.skip-link {
+	font-size: 1.2rem;
+	position: absolute;
+	left: -1000px;
+	top: 0;
+	z-index: 999;
+	background-color: $accent-color-blue;
+	padding: 10px;
+	color: $color-white;
+
+	&:focus {
+		left: 50%;
+		transform: translate(-50%);
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	color: $color-font;
+}
+
+html {
+	font-family: $font-secondary;
+	font-size: 125%;
+	scroll-behavior: smooth;
+}
+
+body {
+	position: relative;
+	background-color: $color-background;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+	padding: 0;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+p {
+	line-height: 1.6rem;
+}
+
+input,
+button,
+textarea {
+	outline: 0;
+	border: none;
+}

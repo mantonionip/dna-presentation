@@ -1,0 +1,61 @@
+.container-end {
+	position: relative;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.final-score {
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+}
+
+.circle-shape {
+	background-color: $accent-color-yellow;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.circle-small {
+	width: 150px;
+	height: 150px;
+	top: 10%;
+	right: 5%;
+}
+
+.circle-large {
+	width: 250px;
+	height: 250px;
+	bottom: 10%;
+	left: 2.5%;
+}
+
+.triangle-small {
+	border: 100px solid transparent;
+	border-top-color: $accent-color-red;
+	border-bottom: 0;
+	border-left: 0;
+	width: 0;
+	height: 100px;
+	position: absolute;
+	top: 10%;
+	right: 5%;
+	transform: rotate(-360deg);
+	animation: rotate infinite 15s both linear;
+}
+
+.triangle-large {
+	border: 150px solid transparent;
+	border-top-color: $accent-color-red;
+	border-bottom: 0;
+	border-left: 0;
+	width: 0;
+	height: 150px;
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	transform: rotate(360deg);
+	animation: rotate infinite 15s both linear;
+}
