@@ -523,7 +523,7 @@ textarea {
 }
 
 .fa-home:hover {
-  background-color: #f9584f;
+  background-color: #e21308;
   color: #fff !important;
 }
 
@@ -547,8 +547,8 @@ textarea {
 }
 
 .intro-info {
-  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #fdce23), color-stop(10%, #f9584f));
-  background: linear-gradient(90deg, #fdce23 30%, #f9584f 10%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #fdce23), color-stop(10%, #e21308));
+  background: linear-gradient(90deg, #fdce23 30%, #e21308 10%);
   border: 1px solid #fff;
   border-radius: 3rem;
   padding: 5rem 3rem;
@@ -653,6 +653,19 @@ textarea {
           align-items: center;
 }
 
+.circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .fa-cubes,
 .fa-youtube {
   display: -webkit-box;
@@ -676,18 +689,19 @@ textarea {
   padding: .7rem;
   -webkit-transition: .4s all;
   transition: .4s all;
+  margin-bottom: .5rem;
 }
 
 .fa-cubes:hover,
 .fa-youtube:hover {
   color: #fff;
-  background-color: #f9584f;
+  background-color: #e21308;
 }
 
 .learner-initial {
   border: 1px solid #f6f6f6;
   border-radius: 50px;
-  background-color: #f9584f !important;
+  background-color: #e21308 !important;
   color: #fff !important;
   border: 1px solid #fff !important;
   padding: .7rem;
@@ -777,7 +791,7 @@ textarea {
 }
 
 .span-red {
-  color: #f9584f;
+  color: #e21308;
 }
 
 .btn-container {
@@ -990,7 +1004,7 @@ iframe {
 }
 
 .incorrect {
-  background-color: #f9584f;
+  background-color: #e21308;
 }
 
 /* HEAD'S UP DISPLAY */
@@ -1009,7 +1023,7 @@ iframe {
 }
 
 .hud-main-text {
-  color: #f9584f;
+  color: #e21308;
   text-align: center;
 }
 
@@ -1068,7 +1082,7 @@ iframe {
 
 .triangle-small {
   border: 100px solid transparent;
-  border-top-color: #f9584f;
+  border-top-color: #e21308;
   border-bottom: 0;
   border-left: 0;
   width: 0;
@@ -1084,7 +1098,7 @@ iframe {
 
 .triangle-large {
   border: 150px solid transparent;
-  border-top-color: #f9584f;
+  border-top-color: #e21308;
   border-bottom: 0;
   border-left: 0;
   width: 0;
