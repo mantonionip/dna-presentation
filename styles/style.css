@@ -523,7 +523,7 @@ textarea {
 }
 
 .fa-home:hover {
-  background-color: #e21308;
+  background-color: #f9584f;
   color: #fff !important;
 }
 
@@ -547,8 +547,8 @@ textarea {
 }
 
 .intro-info {
-  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #fdce23), color-stop(10%, #e21308));
-  background: linear-gradient(90deg, #fdce23 30%, #e21308 10%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, #fdce23), color-stop(10%, #f9584f));
+  background: linear-gradient(90deg, #fdce23 30%, #f9584f 10%);
   border: 1px solid #fff;
   border-radius: 3rem;
   padding: 5rem 3rem;
@@ -695,16 +695,16 @@ textarea {
 .fa-cubes:hover,
 .fa-youtube:hover {
   color: #fff;
-  background-color: #e21308;
+  background-color: #f9584f;
 }
 
 .learner-initial {
   border: 1px solid #f6f6f6;
   border-radius: 50px;
-  background-color: #e21308 !important;
+  background-color: #f9584f !important;
   color: #fff !important;
   border: 1px solid #fff !important;
-  padding: .7rem;
+  padding: .8rem .7rem .7rem;
 }
 
 .aside-title {
@@ -791,7 +791,7 @@ textarea {
 }
 
 .span-red {
-  color: #e21308;
+  color: #f9584f;
 }
 
 .btn-container {
@@ -1004,7 +1004,7 @@ iframe {
 }
 
 .incorrect {
-  background-color: #e21308;
+  background-color: #f9584f;
 }
 
 /* HEAD'S UP DISPLAY */
@@ -1023,7 +1023,7 @@ iframe {
 }
 
 .hud-main-text {
-  color: #e21308;
+  color: #f9584f;
   text-align: center;
 }
 
@@ -1082,7 +1082,7 @@ iframe {
 
 .triangle-small {
   border: 100px solid transparent;
-  border-top-color: #e21308;
+  border-top-color: #f9584f;
   border-bottom: 0;
   border-left: 0;
   width: 0;
@@ -1098,7 +1098,7 @@ iframe {
 
 .triangle-large {
   border: 150px solid transparent;
-  border-top-color: #e21308;
+  border-top-color: #f9584f;
   border-bottom: 0;
   border-left: 0;
   width: 0;

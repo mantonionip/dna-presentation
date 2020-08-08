@@ -24,7 +24,12 @@
                 <p class="logo-text">Grade 12</p>
             </div>
             <ul class="menu-list">
-                <li><a class="home-link" aria-label="Go to D2L's Official Website" href="https://www.d2l.com/" target="_blank" rel="noopener noreferrer" title="Go to D2L's Official Website"><i class="fas fa-home"></i></a></li>
+                <li>
+                    <span class="visuallyhidden">Home Page</span>
+                    <a class="home-link" aria-label="Go to Home page" href="index.html" title="Go to Home page">
+                        <i aria-hidden="true" class="fas fa-home"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
@@ -33,14 +38,14 @@
             <aside class="aside-container">
                 <ul class="learner-info">
                     <li class="aside-items">
+                        <span class="visuallyhidden">User</span>
                         <span class="learner-initial">SP</span>
-                        <p class="aside-title">User</p>
                     </li>
                     <li class="aside-items">
-                        <a href="#quiz" class="circle aside-title"><i class="fas fa-cubes"></i>Quiz</a>
+                        <a aria-label="Go to quiz section" href="#quiz" class="circle aside-title" title="Take a Test"><i aria-hidden="true" class="fas fa-cubes"></i>Quiz</a>
                     </li>
                     <li class="aside-items">
-                        <a href="#videos" class="circle aside-title"><i class="fab fa-youtube"></i>Videos</a>
+                        <a aria-label="Go to related video section" href="#videos" class="circle aside-title" title="Related Videos"><i aria-hidden="true" class="fab fa-youtube"></i>Video</a>
                     </li>
                 </ul>
             </aside>
@@ -68,7 +73,7 @@
                 <div id="quiz" class="assessment-container">
                     <h2 class="assessment-heading">Time to test your knowledge!</h2>
                     <div class="assessment-go">
-                        <a href="/quiz.html" class="btn btn-start">Start Assessment</a>
+                        <a aria-label="Start assessment" href="/quiz.html" class="btn btn-start">Start Assessment</a>
                         <div class="assessment-image">
                             <img class="assessment-img" src="./assets/illustrated-moose.png" alt="The illustrated moose of D2L">
                         </div>
