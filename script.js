@@ -22,7 +22,7 @@ fetch("questions.json")
         startGame();
     })
     .catch( err => {
-        console.log(err);
+        return `Oh, seems something went wrong!`;
     });
 
 // CONSTANTS
@@ -41,6 +41,7 @@ startGame = () => {
 getNewQuestion = () => {
 
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem("mostRecentScore", score);
         // go to the end page
         return window.location.assign('/end.html');
     }
@@ -93,8 +94,3 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
 }
-
-// Final Score
-const finalScore = document.getElementById('finalScore');
-const mostRecentScore = localStorage.getItem('mostRecentScore');
-finalScore.innerText = `Your Score: ${mostRecentScore} Points`;
