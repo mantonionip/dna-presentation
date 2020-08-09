@@ -1,36 +1,36 @@
 .header {
 	background-color: $color-white;
-}
 
-.navigation {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1.5rem 0;
-}
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 1.5rem 0;
+	}
 
-.logo-container {
-	display: flex;
-	align-items: center;
-}
+	&__logo-container {
+		display: flex;
+		align-items: center;
+	}
 
-.logo-image {
-	display: block;
-	width: 100px;
-	border-right: 2px solid $color-D2L;
-	padding-right: 1rem;
-}
+	&__logo-image {
+		display: block;
+		width: 100px;
+		border-right: 2px solid $color-D2L;
+		padding-right: 1rem;
+	}
 
-.logo-text {
-	color: $color-D2L;
-	font-size: 1rem;
-	font-weight: bold;
-	padding-left: 1rem;
-}
+	&__logo-text {
+		color: $color-D2L;
+		font-size: 1rem;
+		font-weight: bold;
+		padding-left: 1rem;
+	}
 
-.menu-list {
-	display: flex;
-	justify-content: space-between;
+	&__menu {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 .fa-home {

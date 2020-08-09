@@ -1,15 +1,15 @@
-.container-end {
+.end-page {
 	position: relative;
-}
 
-.flex-center {
-	justify-content: center;
-	align-items: center;
-}
+	&__flex-center {
+		justify-content: center;
+		align-items: center;
+	}
 
-.final-score {
-	font-size: 1.4rem;
-	margin-bottom: 2rem;
+	&__final-score {
+		font-size: calc(1rem + 1vw);
+		margin-bottom: 2rem;
+	}
 }
 
 .circle-shape {
@@ -19,43 +19,56 @@
 }
 
 .circle-small {
-	width: 150px;
-	height: 150px;
+	width: calc(2rem + 10vw);
+	height: calc(2rem + 10vw);
 	top: 10%;
-	right: 5%;
+	right: -5%;
 }
 
 .circle-large {
-	width: 250px;
-	height: 250px;
+	width: calc(6rem + 10vw);
+	height: calc(6rem + 10vw);
 	bottom: 10%;
-	left: 2.5%;
+	left: -5%;
+
+	@include respond-768 {
+		width: calc(2rem + 10vw);
+		height: calc(2rem + 10vw);
+	}
 }
 
 .triangle-small {
-	border: 100px solid transparent;
+	border: calc(2rem + 5vw) solid transparent;
 	border-top-color: $accent-color-red;
 	border-bottom: 0;
 	border-left: 0;
 	width: 0;
-	height: 100px;
+	height: calc(2rem + 5vw);
 	position: absolute;
 	top: 10%;
-	right: 5%;
+	right: -5%;
 	transform: rotate(-360deg);
 	animation: rotate infinite 15s both linear;
 }
 
 .triangle-large {
-	border: 150px solid transparent;
+	border: calc(4rem + 5vw) solid transparent;
 	border-top-color: $accent-color-red;
 	border-bottom: 0;
 	border-left: 0;
 	width: 0;
-	height: 150px;
+	height: calc(4rem + 5vw);
 	position: absolute;
 	bottom: 10%;
-	left: 5%;
+	left: -3%;
 	transform: rotate(360deg);
 	animation: rotate infinite 15s both linear;
+
+	@include respond-768 {
+		border: calc(1rem + 5vw) solid transparent;
+		border-top-color: $accent-color-red;
+		height: calc(1rem + 5vw);
+		bottom: 10%;
+		left: -5%;
+	}
 }

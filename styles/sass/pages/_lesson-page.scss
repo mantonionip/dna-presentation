@@ -1,0 +1,246 @@
+.lesson {
+	display: flex;
+
+	&__aside-container {
+		background-color: $color-white;
+		border: 1px solid $color-white;
+		border-radius: 10px;
+		padding: 2rem 2rem 0;
+		margin: 5rem 2rem 0 0;
+		height: max-content;
+	}
+
+	&__student-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	&__aside-item {
+		padding-bottom: 2rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&__title {
+		font-family: $font-primary;
+		font-size: calc(1rem + 3vw);
+		margin: 4.5rem 0;
+	}
+
+	&__header:before {
+		content: "";
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		border-radius: 50px;
+		background: $accent-color-yellow;
+		position: relative;
+		top: 4px;
+		padding: 0;
+		margin: 0 10px 0 0;
+	}
+
+	&__header {
+		font-family: $font-primary;
+		font-size: calc(1.2rem + 1vw);
+		margin: .5rem 0 2rem;
+	}
+
+	&__text:before {
+		content: "";
+		display: inline-block;
+		width: 40px;
+		height: 2px;
+		background: $accent-color-blue;
+		position: relative;
+		top: -4px;
+		padding: 0;
+		margin: 0 10px 0 0;
+	}
+
+	&__text {
+		font-size: .9rem;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column-gap: 4rem;
+		grid-row-gap: 1rem;
+		margin: 2rem 0;
+	}
+
+	&__item {
+		font-size: .9rem;
+		line-height: 1.6rem;
+		background-color: $color-white;
+		border: 1px solid $color-white;
+		border-radius: 10px;
+		padding: 2rem;
+		min-height: 150px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	&__item-span {
+		padding-right: 1rem;
+		font-size: 4rem;
+	}
+}
+
+.student-initial {
+	border: 1px solid $color-background;
+	border-radius: 50px;
+	background-color: $accent-color-red !important;
+	color: $color-white !important;
+	border: 1px solid $color-white !important;
+	padding: .8rem .7rem .7rem;
+}
+
+.circle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fa-cubes,
+.fa-youtube {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	background-color: $color-background;
+	color: $color-font;
+	border: 1px solid $color-background;
+	border-radius: 50px;
+	padding: .7rem;
+	transition: .4s all;
+	margin-bottom: .5rem;
+}
+
+.fa-cubes:hover,
+.fa-youtube:hover {
+	color: $color-white;
+	background-color: $accent-color-red;
+}
+
+.aside-title {
+	font-size: .7rem;
+}
+
+.span-blue {
+	color: $accent-color-blue;
+}
+
+.span-red {
+	color: $accent-color-red;
+}
+
+.assessment {
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		margin: 6rem 0 10rem;
+	}
+
+	&__heading:before {
+		content: "";
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background: $accent-color-yellow;
+		position: relative;
+		top: 5px;
+		padding: 0;
+		margin: 0 10px 0 0;
+		border-radius: 50px;
+	}
+
+	&__heading {
+		font-family: $font-primary;
+		font-size: calc(1rem + 1vw);
+		margin-bottom: 2rem;
+	}
+
+	&__go {
+		background-color: $color-white;
+		border: 1px solid $color-font;
+		border-radius: 10px;
+		padding: 3rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	&__image {
+		width: 50%;
+	}
+
+	&__img {
+		width: 100%;
+	}
+}
+
+.video {
+	margin-bottom: 8rem;
+
+	&__heading:before {
+		content: "";
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background: $accent-color-yellow;
+		position: relative;
+		top: 5px;
+		padding: 0;
+		margin: 0 10px 0 0;
+		border-radius: 50px;
+	}
+
+	&__heading {
+		font-family: $font-primary;
+		font-size: calc(1rem + 1vw);
+		margin-bottom: 2rem;
+	}
+
+	&__section {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		grid-column-gap: 2rem;
+		grid-row-gap: 2rem;
+	}
+
+	&__container {
+		background-color: $color-white;
+		border: 1px solid $color-white;
+		border-radius: 10px;
+		padding: 1.5rem;
+	}
+
+	&__info {
+		font-size: .8rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+	}
+}
+
+.iframe-container {
+	width: 100%;
+	min-height: 200px;
+}
+
+iframe {
+	width: 100%;
+	min-height: 200px;
+	object-fit: cover;
+}

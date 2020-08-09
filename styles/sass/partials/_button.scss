@@ -25,7 +25,7 @@
 }
 
 .btn-intro {
-	height: 42px;
+	height: 2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -33,15 +33,19 @@
 
 .btn-intro:hover {
 	background-color: $accent-color-yellow;
+
+	@include respond-768 {
+		background-color: $color-white;
+	}
 }
 
 .btn-start {
-	font-size: 1rem;
+	font-size: calc(.4rem + 1vw);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 300px;
-	height: 60px;
+	width: calc(250px + 3vw);
+	height: calc(2rem + 2vw)
 }
 
 .btn-quiz {

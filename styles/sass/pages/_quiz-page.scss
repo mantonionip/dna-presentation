@@ -1,3 +1,7 @@
+.container > * {
+	width: 100%;
+}
+
 .container {
 	height: 100vh;
 	display: flex;
@@ -5,15 +9,11 @@
 	align-items: center;
 	max-width: 80rem;
 	margin: 0 auto;
-}
 
-.container > * {
-	width: 100%;
-}
-
-.flex-column {
-	display: flex;
-	flex-direction: column;
+	&__flex-column {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .hidden {
@@ -21,40 +21,43 @@
 }
 
 .question {
-	font-family: $font-primary;
-	font-size: 1.4rem;
-	padding: 2rem 0 1rem;
-}
 
-.choice-container {
-	display: flex;
-	margin-bottom: 0.25rem;
-	width: 100%;
-	font-size: .9rem;
-	border: 2px solid $accent-color-blue;
-	border-radius: 10px;
-	background-color: $color-white;
-}
+	&__heading {
+		font-family: $font-primary;
+		font-size: calc(.8rem + 1vw);
+		padding: 2rem 0 1rem;
+	}
 
-.choice-container:hover {
-	cursor: pointer;
-	box-shadow: 0 0.1rem .3rem 0 $accent-color-blue;
-	transform: translateY(-0.1rem);
-	transition: transform 150ms;
-}
+	&__choice-container {
+		display: flex;
+		margin-bottom: 0.25rem;
+		width: 100%;
+		font-size: .8rem;
+		border: 2px solid $accent-color-blue;
+		border-radius: 10px;
+		background-color: $color-white;
+	}
 
-.choice-prefix {
-	border-radius: 5px 0 0 5px;
-	margin: 0;
-	padding: .7rem 1.2rem;
-	background-color: $accent-color-blue;
-	color: $color-white;
-}
+	&__choice-container:hover {
+		cursor: pointer;
+		box-shadow: 0 0.1rem .3rem 0 $accent-color-blue;
+		transform: translateY(-0.1rem);
+		transition: transform 150ms;
+	}
 
-.choice-text {
-	margin: 0;
-	padding: .7rem;
-	width: 100%;
+	&__choice-prefix {
+		border-radius: 5px 0 0 5px;
+		margin: 0;
+		padding: .5rem 1rem;
+		background-color: $accent-color-blue;
+		color: $color-white;
+	}
+
+	&__choice-text {
+		margin: 0;
+		padding: .5rem;
+		width: 100%;
+	}
 }
 
 .correct {
@@ -66,32 +69,35 @@
 }
 
 /* HEAD'S UP DISPLAY */
-#hud {
+.hud {
 	display: flex;
 	justify-content: space-between;
+
+	&__prefix {
+		text-align: center;
+		font-size: calc(.5rem + 1vw);
+	}
+
+	&__score-num {
+		font-size: calc(1rem + 1vw);
+		color: $accent-color-red;
+		text-align: center;
+	}
 }
 
-.hud-prefix {
-	text-align: center;
-	font-size: 1rem;
-}
-
-.hud-main-text {
-	color: $accent-color-red;
-	text-align: center;
-}
-
-#progressBar {
-	width: 10rem;
+.progress-bar {
+	width: calc(5rem + 10vw);
 	height: .8rem;
 	border: 1px solid $accent-color-yellow;
 	border-radius: 50px;
 	margin-top: 1rem;
+
+	&__full {
+		background-color: $accent-color-yellow;
+		border-radius: 50px;
+		height: .7rem;
+		width: 0%;
+	}
 }
 
-#progressBarFull {
-	background-color: $accent-color-yellow;
-	border-radius: 50px;
-	height: .7rem;
-	width: 0%;
-}
+

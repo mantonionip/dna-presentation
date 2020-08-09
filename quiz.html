@@ -21,41 +21,41 @@
     <main class="wrapper">
         <div class="container">
             <div id="loader" class="loader"></div>
-            <div id="game" class="flex-column hidden">
+            <div id="game" class="container__flex-column hidden">
                 <div id="hud" class="hud">
-                    <div id="hud-item">
-                        <p id="progressText" class="hud-prefix">
+                    <div id="hud__item">
+                        <p id="progressText" class="hud__prefix">
                             Question
                         </p>
-                        <div id="progressBar">
-                            <div id="progressBarFull"></div>
+                        <div id="progressBar" class="progress-bar">
+                            <div id="progressBarFull" class="progress-bar__full"></div>
                         </div>
                     </div>
-                    <div id="hud-item">
-                        <p class="hud-prefix">
+                    <div id="hud__item">
+                        <p class="hud__prefix">
                             Score
                         </p>
-                        <h1 class="hud-main-text" id="score">
+                        <h1 class="hud__score-num" id="score">
                             0
                         </h1>
                     </div>
                 </div>
-                <h2 id="question" class="question"></h2>
-                <div class="choice-container">
-                    <p class="choice-prefix">A</p>
-                    <p class="choice-text" data-number="1"></p>
+                <h2 id="question" class="question__heading"></h2>
+                <div class="question__choice-container">
+                    <p class="question__choice-prefix">A</p>
+                    <p class="question__choice-text" data-number="1"></p>
                 </div>
-                <div class="choice-container">
-                    <p class="choice-prefix">B</p>
-                    <p class="choice-text" data-number="2"></p>
+                <div class="question__choice-container">
+                    <p class="question__choice-prefix">B</p>
+                    <p class="question__choice-text" data-number="2"></p>
                 </div>
-                <div class="choice-container">
-                    <p class="choice-prefix">C</p>
-                    <p class="choice-text" data-number="3"></p>
+                <div class="question__choice-container">
+                    <p class="question__choice-prefix">C</p>
+                    <p class="question__choice-text" data-number="3"></p>
                 </div>
-                <div class="choice-container">
-                    <p class="choice-prefix">D</p>
-                    <p class="choice-text" data-number="4"></p>
+                <div class="question__choice-container">
+                    <p class="question__choice-prefix">D</p>
+                    <p class="question__choice-text" data-number="4"></p>
                 </div>
                 <a aria-label="Back to lesson" class="btn btn-quiz" href="lesson.html">Back to Lesson</a>
             </div>
