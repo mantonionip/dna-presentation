@@ -40,12 +40,17 @@
 }
 
 .btn-start {
-	font-size: calc(.5rem + 1vw);
+	font-size: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: calc(15rem + 3vw);
-	height: calc(2rem + 2vw)
+	width: 15rem;
+	height: 3rem;
+
+	@include respond-480 {
+		font-size: .8rem;
+		height: 2rem;
+	}
 }
 
 .btn-quiz {

@@ -441,7 +441,7 @@ textarea {
 }
 
 .btn-start {
-  font-size: calc(.5rem + 1vw);
+  font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -451,8 +451,15 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: calc(15rem + 3vw);
-  height: calc(2rem + 2vw);
+  width: 15rem;
+  height: 3rem;
+}
+
+@media (max-width: 480px) {
+  .btn-start {
+    font-size: .8rem;
+    height: 2rem;
+  }
 }
 
 .btn-quiz {
@@ -1084,6 +1091,12 @@ textarea {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .video__container {
+    padding: 1rem;
+  }
 }
 
 .video__info {
