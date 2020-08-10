@@ -1246,6 +1246,7 @@ iframe {
   font-size: calc(1rem + 1vw);
   color: #f9584f;
   text-align: center;
+  margin-top: .6rem;
 }
 
 .progress-bar {

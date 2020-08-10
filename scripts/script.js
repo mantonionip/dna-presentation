@@ -1,3 +1,4 @@
+// VARIABLES
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("question__choice-text"));
 const progressText = document.getElementById("progressText");
@@ -73,7 +74,6 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if(classToApply === 'correct') {
