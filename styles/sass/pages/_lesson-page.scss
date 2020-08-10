@@ -71,22 +71,12 @@
 	}
 
 	&__header:before {
-		content: "";
-		display: inline-block;
-		width: 30px;
-		height: 30px;
-		border-radius: 50px;
-		background: $accent-color-yellow;
-		position: relative;
+		@include before;
 		top: 4px;
-		padding: 0;
-		margin: 0 10px 0 0;
 	}
 
 	&__header {
-		font-family: $font-primary;
-		font-size: calc(1.2rem + 1vw);
-		margin: .5rem 0 2rem;
+		@include lesson-heading;
 	}
 
 	&__text:before {
@@ -214,22 +204,12 @@
 	}
 
 	&__heading:before {
-		content: "";
-		display: inline-block;
-		width: 30px;
-		height: 30px;
-		background: $accent-color-yellow;
-		position: relative;
+		@include before;
 		top: 5px;
-		padding: 0;
-		margin: 0 10px 0 0;
-		border-radius: 50px;
 	}
 
 	&__heading {
-		font-family: $font-primary;
-		font-size: calc(1rem + 1vw);
-		margin-bottom: 2rem;
+		@include lesson-heading;
 	}
 
 	&__go {
@@ -273,22 +253,12 @@
 	margin-bottom: 8rem;
 
 	&__heading:before {
-		content: "";
-		display: inline-block;
-		width: 30px;
-		height: 30px;
-		background: $accent-color-yellow;
-		position: relative;
+		@include before;
 		top: 5px;
-		padding: 0;
-		margin: 0 10px 0 0;
-		border-radius: 50px;
 	}
 
 	&__heading {
-		font-family: $font-primary;
-		font-size: calc(1rem + 1vw);
-		margin-bottom: 2rem;
+		@include lesson-heading;
 	}
 
 	&__section {
