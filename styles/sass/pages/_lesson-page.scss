@@ -1,6 +1,10 @@
 .lesson {
 	display: flex;
 
+	@include respond-768 {
+		flex-direction: column;
+	}
+
 	&__aside-container {
 		background-color: $color-white;
 		border: 1px solid $color-white;
@@ -8,6 +12,11 @@
 		padding: 2rem 2rem 0;
 		margin: 5rem 2rem 0 0;
 		height: max-content;
+
+		@include respond-768 {
+			padding: 1rem;
+			margin: 2rem 0;
+		}
 	}
 
 	&__student-info {
@@ -17,18 +26,48 @@
 		align-items: center;
 	}
 
+	&__aside-items {
+		@include respond-768 {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+		}
+	}
+
 	&__aside-item {
 		padding-bottom: 2rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+
+		@include respond-768 {
+			padding-bottom: 0;
+		}
+	}
+
+	&__aside-initial {
+		@include respond-768 {
+			display: none;
+		}
+	}
+
+	&__aside-home {
+		display: none;
+
+		@include respond-768 {
+			display: block;
+		}
 	}
 
 	&__title {
 		font-family: $font-primary;
 		font-size: calc(1rem + 3vw);
 		margin: 4.5rem 0;
+
+		@include respond-768 {
+			margin: 2rem 0 4rem;
+		}
 	}
 
 	&__header:before {
@@ -64,6 +103,10 @@
 
 	&__text {
 		font-size: .9rem;
+
+		@include respond-480 {
+			font-size: .8rem;
+		}
 	}
 
 	&__list {
@@ -85,11 +128,26 @@
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
+
+		@include respond-768 {
+			display: block;
+			min-height: 0;
+		}
+
+		@include respond-480 {
+			font-size: .8rem;
+			padding: 1.5rem;
+		}
 	}
 
 	&__item-span {
 		padding-right: 1rem;
 		font-size: 4rem;
+
+		@include respond-768 {
+			padding-right: 0;
+			font-size: 3rem;
+		}
 	}
 }
 
@@ -109,7 +167,8 @@
 }
 
 .fa-cubes,
-.fa-youtube {
+.fa-youtube,
+.fa-home {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -132,6 +191,10 @@
 
 .aside-title {
 	font-size: .7rem;
+
+	@include respond-480 {
+		font-size: .6rem;
+	}
 }
 
 .span-blue {
@@ -178,10 +241,27 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items: flex-end;
+
+		@include respond-1280 {
+			padding: 2rem;
+			justify-content: center;
+		}
 	}
 
 	&__image {
 		width: 50%;
+
+		@include respond-1280 {
+			width: 60%;
+			order: -1;
+			margin-bottom: 2rem;
+		}
+
+		@include respond-480 {
+			width: 100%;
+			order: -1;
+			margin-bottom: 2rem;
+		}
 	}
 
 	&__img {
@@ -216,6 +296,10 @@
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		grid-column-gap: 2rem;
 		grid-row-gap: 2rem;
+
+		@include respond-480 {
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		}
 	}
 
 	&__container {
@@ -231,16 +315,28 @@
 		flex-wrap: wrap;
 		justify-content: space-between;
 		margin-bottom: 1rem;
+
+		@include respond-480 {
+			font-size: .6rem;
+		}
 	}
 }
 
 .iframe-container {
 	width: 100%;
 	min-height: 200px;
+
+	@include respond-480 {
+		min-height: 100px;
+	}
 }
 
 iframe {
 	width: 100%;
 	min-height: 200px;
 	object-fit: cover;
+
+	@include respond-480 {
+		min-height: 100px;
+	}
 }

@@ -18,6 +18,10 @@
 		width: 100px;
 		border-right: 2px solid $color-D2L;
 		padding-right: 1rem;
+
+		@include respond-480 {
+			width: 80px;
+		}
 	}
 
 	&__logo-text {
@@ -25,11 +29,31 @@
 		font-size: 1rem;
 		font-weight: bold;
 		padding-left: 1rem;
+
+		@include respond-480 {
+			font-size: .8rem;
+		}
 	}
 
 	&__menu {
 		display: flex;
 		justify-content: space-between;
+
+		@include respond-768 {
+			display: none;
+		}
+	}
+
+	&__initial {
+		display: none;
+
+		@include respond-768 {
+			display: block;
+		}
+
+		@include respond-480 {
+			font-size: .8rem;
+		}
 	}
 }
 

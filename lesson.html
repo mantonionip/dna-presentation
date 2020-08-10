@@ -18,7 +18,7 @@
 <body>
     <a href="#main" class="skip-link">Skip to main content</a>
     <header class="header">
-        <div class="header__navigation wrapper">
+        <div class="header__navigation wrapper wrapper-2">
             <div class="header__logo-container">
                 <img class="header__logo-image" src="./assets/d2l-logo.png" alt="D2L's logo">
                 <p class="header__logo-text">Grade 12</p>
@@ -31,15 +31,25 @@
                     </a>
                 </li>
             </ul>
+            <ul class="header__initial">
+                <li class="">
+                    <span class="visuallyhidden">User</span>
+                    <span class="student-initial">SP</span>
+                </li>
+            </ul>
         </div>
     </header>
-    <main id="main" class="wrapper">
+    <main id="main" class="wrapper wrapper-2">
         <div class="lesson">
             <aside class="lesson__aside-container">
                 <ul class="lesson__aside-items">
-                    <li class="lesson__aside-item">
+                    <li class="lesson__aside-item lesson__aside-initial">
                         <span class="visuallyhidden">User</span>
                         <span class="student-initial">SP</span>
+                    </li>
+                    <li class="lesson__aside-item lesson__aside-home">
+                        <a aria-label="Go to Home page" href="index.html" title="Go to Home page" class="circle aside-title">
+                            <i aria-hidden="true" class="fas fa-home"></i>Home</a>
                     </li>
                     <li class="lesson__aside-item">
                         <a aria-label="Go to quiz section" href="#quiz" class="circle aside-title" title="Take a Test"><i aria-hidden="true" class="fas fa-cubes"></i>Quiz</a>
